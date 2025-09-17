@@ -1,3 +1,4 @@
+import AddStockItem from "@/components/AddStockItem";
 import Dashboard from "@/components/Dashboard";
 import { Text, View } from "react-native";
 
@@ -12,6 +13,7 @@ export default function Index() {
     >
       <Text>Edit app/index.tsx to edit this screen.</Text>
       <Dashboard />
+      <AddStockItem />
     </View>
   );
 }
