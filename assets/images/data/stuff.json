@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "barcode": "5901234123457",
+    "name": "Nike Pegasus",
+    "fullName": "Nike Air Zoom Pegasus 40 Running Shoes",
+    "quantity": 25,
+    "price": 119.99,
+    "category": "Shoes",
+    "image": "https://example.com/images/nike-pegasus.jpg"
+  },
+  {
+    "id": "2",
+    "barcode": "4006381333931",
+    "name": "Adidas Ultraboost",
+    "fullName": "Adidas Ultraboost 22 Performance Running Shoes",
+    "quantity": 15,
+    "price": 149.99,
+    "category": "Shoes",
+    "image": "https://example.com/images/adidas-ultraboost.jpg"
+  },
+  {
+    "id": "3",
+    "barcode": "012345678905",
+    "name": "Apple iPhone 14",
+    "fullName": "Apple iPhone 14 128GB Midnight",
+    "quantity": 8,
+    "price": 799.99,
+    "category": "Electronics",
+    "image": "https://example.com/images/iphone14.jpg"
+  },
+  {
+    "id": "4",
+    "barcode": "9780306406157",
+    "name": "Atomic Habits",
+    "fullName": "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
+    "quantity": 40,
+    "price": 19.99,
+    "category": "Books",
+    "image": "https://example.com/images/atomic-habits.jpg"
+  },
+  {
+    "id": "5",
+    "barcode": "731127156425",
+    "name": "Sony WH-1000XM5",
+    "fullName": "Sony WH-1000XM5 Wireless Noise-Canceling Headphones",
+    "quantity": 12,
+    "price": 349.99,
+    "category": "Electronics",
+    "image": "https://example.com/images/sony-wh1000xm5.jpg"
+  },
+  {
+    "id": "6",
+    "barcode": "8000500310427",
+    "name": "Nutella",
+    "fullName": "Nutella Hazelnut Spread with Cocoa 750g",
+    "quantity": 60,
+    "price": 6.49,
+    "category": "Food",
+    "image": "https://example.com/images/nutella.jpg"
+  }
+]
