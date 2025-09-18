@@ -1,5 +1,5 @@
 // react hooks imported below
-import React, { useMemo, useState } from 'react';
+import React, { useMemo, useState } from "react";
 import {
   FlatList,
   Image,
@@ -16,7 +16,7 @@ type StuffItem = {
   name: string;
   fullName?: string;
   category?: string;
-  price?: number; 
+  price?: number;
   quantity?: number;
   image?: string;
 };
@@ -47,13 +47,13 @@ const renderItem = ({ item }: { item: StuffItem }) => (
 );
 
 export default function Dashboard() {
-  const [text, setText] = useState('');
+  const [text, setText] = useState("");
 
-  const normalize = (s?: string) => (s ?? '').replace(/\D/g, '');
+  const normalize = (s?: string) => (s ?? "").replace(/\D/g, "");
 
   const filtered = useMemo(() => {
     const q = normalize(text?.trim());
-    if (!q) return null; // null means show full list
+    if (!q) return null; 
     return (stuff as StuffItem[]).filter((s) => normalize(s.barcode) === q);
   }, [text]);
 

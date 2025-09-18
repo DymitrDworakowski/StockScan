@@ -15,7 +15,7 @@ export type Item = {
 
 export default function AddStockItem() {
   const [barcode, setBarcode] = useState("");
-  // create a local state copy so we can update quantities and re-render
+
   const [inventory, setInventory] = useState<Item[]>(
     (originalStuff as unknown as Item[]).map((i) => ({ ...i }))
   );
